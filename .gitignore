@@ -1,0 +1,8 @@
+# OSL Plugin Ignore
+build/
+*.so
+*.o
+*.a
+CMakeCache.txt
+CMakeFiles/
+.env

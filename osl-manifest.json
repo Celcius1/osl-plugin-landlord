@@ -1,0 +1,26 @@
+{
+"plugin_id": "au.com.celtechserv.landlord",
+"version": "1.0.0",
+"config_entry": {
+"status": "active",
+"path": "/plugins/bin/landlord.so",
+"description": "Primary Sovereign Identity & Multi-Tenancy Manager. Bridges Authelia/LLDAP identities to isolated accounting entities (Divisions)."
+},
+"dependencies": [
+"postgresql-dev",
+"libpqxx",
+"osl-core-api"
+],
+"capabilities": [
+"entity_segregation",
+"user_context_mapping",
+"role_enforcement",
+"tenancy_provisioning"
+],
+"min_core_version": "1.0.0",
+"branding": {
+"vendor": "Cel-Tech-Serv Pty Ltd",
+"acn": "144 651 632",
+"legal_notice": "Copyright (c) 2026 Cel-Tech-Serv Pty Ltd. All Rights Reserved. Protecting the Sovereign Suite lineage."
+}
+}
